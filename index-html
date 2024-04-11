@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" type="text/css" href="./game.css">
+</head>
+
+<body>
+    <div id="scoreboard">
+        <div>Time: <span id="timer">60</span>s</div>
+        <div>Score: <span id="score">0</span></div>
+        <div>Lives: <span id="lives">3</span></div>
+        <!-- <p>Time: <span id="timer">60</span>s</p>
+        <p></p>
+        <p>Lives: <span id="lives">3</span></p> -->
+    </div>
+    <div id="gameArea"></div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
